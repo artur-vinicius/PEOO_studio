@@ -19,3 +19,4 @@ C:\Users\20211011110013\source\repos\PEOO_studio\PEOO\PEOO\obj\Debug\net5.0-wind
 C:\Users\20211011110013\source\repos\PEOO_studio\PEOO\PEOO\obj\Debug\net5.0-windows\ref\PEOO.dll
 C:\Users\20211011110013\source\repos\PEOO_studio\PEOO\PEOO\obj\Debug\net5.0-windows\PEOO.pdb
 C:\Users\20211011110013\source\repos\PEOO_studio\PEOO\PEOO\obj\Debug\net5.0-windows\PEOO.genruntimeconfig.cache
+C:\Users\20211011110013\Source\Repos\PEOO_studio\PEOO\PEOO\obj\Debug\net5.0-windows\PEOO.csproj.AssemblyReference.cache
