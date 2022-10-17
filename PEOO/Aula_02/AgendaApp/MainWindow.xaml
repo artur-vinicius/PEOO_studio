@@ -1,0 +1,23 @@
+﻿<Window x:Class="AgendaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AgendaApp"
+        mc:Ignorable="d"
+        Title="Agenda" Height="450" Width="800">
+    <Grid>
+
+        <TextBlock HorizontalAlignment="Left" Margin="67,32,0,0" Text="Nome:" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.771,0.817" Height="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="267,32,0,0" Text="E-mail:" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.771,0.817" Height="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="461,32,0,0" Text="Telefone:" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.771,0.817" Height="16"/>
+
+        <TextBox x:Name="nome" HorizontalAlignment="Left" Margin="10,78,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="210,78,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="telefone" HorizontalAlignment="Left" Margin="410,78,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+
+        <Button x:Name="sub" Content="Submit" HorizontalAlignment="Left" Padding="10" Margin="595,356,0,0" VerticalAlignment="Top" Click="Button_Click" Width="64"/>
+        <Button x:Name="rem" Content="Remove" HorizontalAlignment="Left" Padding="10" Margin="696,356,0,0" VerticalAlignment="Top" Click="Remove_Click"/>
+        <ListBox x:Name="list" Margin="10,135,240,10" SelectionChanged="ListBox_SelectionChanged"/>
+    </Grid>
+</Window>
