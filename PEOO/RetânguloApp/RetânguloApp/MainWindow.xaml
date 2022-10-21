@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <GroupBox Header="Área e Diagonal">
+            <Grid>
+                <TextBlock HorizontalAlignment="Left" Margin="72,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="70" FontSize="30" ><Run Text="Base"/><Run Language="pt-br" Text=":"/></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="438,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="89" FontSize="30"><Run Text="Altura"/><Run Language="pt-br" Text=":"/></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="72,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="70" FontSize="30" ><Run Language="pt-br" Text="Área"/><Run Text=":"/></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="438,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="172" FontSize="30"><Run Text="Diagona"/><Run Language="pt-br" Text="l"/><Run Text=":"/></TextBlock>
+                <TextBox x:Name="txt_base" HorizontalAlignment="Left" Margin="72,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" Height="40"/>
+                <TextBox x:Name="txt_altura" HorizontalAlignment="Left" Margin="438,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" Height="40"/>
+                <TextBox x:Name="txt_area" HorizontalAlignment="Left" Margin="72,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" Height="40"/>
+                <TextBox x:Name="txt_diagonal" HorizontalAlignment="Left" Margin="438,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240 " Height="40"/>
+                <Button Content="Calcular" HorizontalAlignment="Left" Margin="72,0,0,0" VerticalAlignment="Center" Height="50" Width="606" FontSize="30" Click="Button_Click"/>
+
+            </Grid>
+        </GroupBox>
+
 
     </Grid>
 </Window>
