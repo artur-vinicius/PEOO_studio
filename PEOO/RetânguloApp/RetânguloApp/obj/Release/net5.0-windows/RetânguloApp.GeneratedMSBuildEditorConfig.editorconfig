@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = AgendaApp
-build_property.ProjectDir = C:\repos\PEOO_studio\PEOO\Aula_02\AgendaApp\
+build_property.RootNamespace = RetânguloApp
+build_property.ProjectDir = C:\repos\PEOO_studio\PEOO\RetânguloApp\RetânguloApp\
